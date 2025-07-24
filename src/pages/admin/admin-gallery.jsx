@@ -211,7 +211,7 @@ const Admin = () => {
               }}
             >
               <h3>Novej obrázek</h3>
-              <i className="fa-solid fa-plus"></i>
+              <img src="/img/xmark.svg" alt="" />
             </div>
             {data.map((item) => (
               <div className="stul-card">
@@ -246,7 +246,7 @@ const Admin = () => {
                 }}
                 title="Zavřít okno"
               >
-                <i className="fa-solid fa-xmark"></i>
+                <img src="/img/xmark.svg" alt="" />{" "}
               </button>
             </div>
             <div className="modal-content">

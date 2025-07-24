@@ -114,6 +114,11 @@
   color: black;
 }
 
+.text-btns img {
+  width: 20px;
+  height: 20px;
+}
+
 .text-row span {
   font-size: 26px;
   font-weight: 700;
@@ -137,6 +142,11 @@
 .text-btns .lupa:hover {
   background-color: #87a541;
   transition: 0.3s ease-in-out;
+}
+
+.text-btns .lupa img {
+  width: 20px;
+  height: 20px;
 }
 
 .tooltip {

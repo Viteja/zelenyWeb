@@ -359,7 +359,7 @@ const Admin = () => {
               }}
             >
               <h3>Nový stůl</h3>
-              <i className="fa-solid fa-plus"></i>
+              <img src="/img/xmark.svg" alt="" />
             </div>
             {data.map((item) => (
               <div className="stul-card">
@@ -389,7 +389,7 @@ const Admin = () => {
             <div className="modal-header">
               <h3>Instagram</h3>
               <button className="close-modal" onClick={() => setIgOpen(false)} title="Zavřít okno">
-                <i className="fa-solid fa-xmark"></i>
+                <img src="/img/xmark.svg" alt="" />
               </button>
             </div>
             <div className="modal-content">
@@ -421,7 +421,7 @@ const Admin = () => {
                 }}
                 title="Zavřít okno"
               >
-                <i className="fa-solid fa-xmark"></i>
+                <img src="/img/xmark.svg" alt="" />
               </button>
             </div>
             <div className="modal-content">

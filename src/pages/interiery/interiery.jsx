@@ -205,7 +205,7 @@ function Interiery() {
                     }}
                     title="Zavřít okno"
                   >
-                    <i className="fa-solid fa-xmark"></i>
+                    <img src="/img/xmark.svg" alt="" />
                   </button>
                 </div>
                 <div class="interiery-form-item">

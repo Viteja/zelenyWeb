@@ -171,13 +171,12 @@
   border-radius: 5px;
 }
 
-.modal-header .close-modal i {
-  font-size: 26px;
+.modal-header .close-modal img {
   transform: rotate(0deg);
   transition: all 0.3s ease;
 }
 
-.modal-header .close-modal:hover i {
+.modal-header .close-modal:hover img {
   transform: rotate(90deg);
   transition: all 0.3s ease;
 }

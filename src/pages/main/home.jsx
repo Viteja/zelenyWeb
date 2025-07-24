@@ -94,7 +94,7 @@ function App() {
                 <button className="btn-green" data-aos="fade-up">
                   <span>{t("green_btn")}</span>
                   <div class="arrow-bg">
-                    <i className="fa-solid fa-arrow-right"></i>
+                    <img src="/img/arrow-right.svg" alt="" />
                   </div>
                 </button>
               </a>

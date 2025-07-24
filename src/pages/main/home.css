@@ -264,6 +264,22 @@
   padding: 6rem 0;
 }
 
+.arrow-bg img {
+  width: 18px;
+  height: 18px;
+}
+
+.close-modal img {
+  width: 25px;
+  height: 25px;
+}
+
+.shop-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 0.5rem;
+}
+
 @media (max-width: 1034px) {
   .bar {
     flex-direction: column;

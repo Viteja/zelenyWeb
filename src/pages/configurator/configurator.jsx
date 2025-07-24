@@ -53,7 +53,7 @@ function Konfigurator() {
         </Helmet>
       </HelmetProvider>
       <a href="/" className="back-btn">
-        <i className="fa-solid fa-arrow-left"></i>
+        <img src="/img/arrow-left.svg" alt="" className="back-arrow" />
       </a>
       {/* <div className="configurator-main">
         <div className="configurator-section">

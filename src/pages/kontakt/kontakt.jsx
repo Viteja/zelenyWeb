@@ -107,35 +107,35 @@ export default function Kontakt() {
           <div className="kontakt-content">
             <div className="kontakt-info">
               <div className="kontakt-item">
-                <i className="fa-solid fa-user"></i>
+                <img src="/img/user.svg" alt="" />
                 <h5>Filip Zelený</h5>
               </div>
               <div className="kontakt-item">
-                <i className="fa-solid fa-address-card"></i>
+                <img src="/img/id_card.svg" alt="" />
                 <h5>IČO: 17124344</h5>
               </div>
               <div className="kontakt-item">
-                <i className="fa-solid fa-map-location-dot"></i>
+                <img src="/img/map.svg" alt="" />
                 <h5>Chrudim, U Stadionu 749</h5>
               </div>
               <div className="kontakt-item">
-                <i className="fa-solid fa-envelope"></i>
+                <img src="/img/envelope.svg" alt="" />
                 <h5>info@filipzeleny.cz</h5>
               </div>
               <div className="kontakt-item">
-                <i className="fa-solid fa-phone"></i>
+                <img src="/img/phone.svg" alt="" />
                 <a href="tel:+420776010780">
                   <h5>+420 776 010 780</h5>
                 </a>
               </div>
               <div className="kontakt-item">
-                <i class="fa-brands fa-square-instagram"></i>
+                <img src="/img/ig.svg" alt="" />
                 <a href="https://www.instagram.com/interiery_filipzeleny/" target="_blank">
                   <h5>interiery_filipzeleny</h5>
                 </a>
               </div>
               <div className="kontakt-item">
-                <i class="fa-brands fa-square-facebook"></i>
+                <img src="/img/fb.svg" alt="" />
                 <a href="https://www.facebook.com/people/Interi%C3%A9ry-Filip-Zelen%C3%BD/61551922541364/" target="_blank">
                   <h5>Interiéry Filip Zelený</h5>
                 </a>

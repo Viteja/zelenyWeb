@@ -196,7 +196,7 @@ function Produkt({ id }) {
         <div className="container">
           <div className="produkt-title" data-aos="fade-down">
             <a href="/stoly" title="Zpět na stoly">
-              <i className="fa-solid fa-arrow-left"></i>
+              <img src="/img/arrow-left.svg" alt="" className="back-arrow" />
             </a>
             <h1>{i18next.language === "de" ? getData.NazevDE : i18next.language === "en" ? getData.NazevEN : getData.Nazev}</h1>
           </div>
@@ -247,7 +247,7 @@ function Produkt({ id }) {
                 <div className="produkt-btn">
                   <button className="modalOpen" onClick={() => setModalOpen(true)} disabled={!kDispozici}>
                     {kDispozici ? t("Produkt_btn") : t("Vyprodano")}
-                    <i className="fa-solid fa-basket-shopping"></i>
+                    <img src="/img/shop.svg" alt="" className="shop-icon" />
                   </button>
                 </div>
               </div>
@@ -275,7 +275,7 @@ function Produkt({ id }) {
                     }}
                     title="Zavřít okno"
                   >
-                    <i className="fa-solid fa-xmark"></i>
+                    <img src="/img/xmark.svg" alt="" />
                   </button>
                 </div>
                 <div className="modal-content">

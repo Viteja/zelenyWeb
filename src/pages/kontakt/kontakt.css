@@ -36,8 +36,9 @@
   border-bottom: 2px solid var(--green);
 }
 
-.kontakt-item i {
-  font-size: 36px;
+.kontakt-item img {
+  width: 36px;
+  height: 36px;
 }
 
 .kontakt-item h5 {

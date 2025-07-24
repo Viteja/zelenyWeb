@@ -122,7 +122,7 @@ function SubMenu() {
                       <span>{formatCena(getFormattedPrice(item.Cena))}</span>
                       <div className="text-btns">
                         <button className="info" title="Infomrace o produktu" onMouseEnter={() => setHoveredId(item.Id)} onMouseLeave={() => setHoveredId(null)}>
-                          <i className="fa-solid fa-info"></i>
+                          <img src="/img/i.svg" alt="" />
                         </button>
                         {hoveredId === item.Id && (
                           <div className="tooltip">
@@ -147,7 +147,7 @@ function SubMenu() {
                           </div>
                         )}
                         <button className="lupa" onClick={() => handleLinkClick(`/stoly/produkt?id=${item.Id}`)} title="Zobrazit produkt">
-                          <i className="fa-solid fa-magnifying-glass"></i>
+                          <img src="/img/info.svg" alt="" />
                         </button>
                       </div>
                     </div>
