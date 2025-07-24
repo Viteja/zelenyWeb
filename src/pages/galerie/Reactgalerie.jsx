@@ -80,7 +80,7 @@ const Reactgalerie = () => {
       {lightbox.img && (
         <div className="overlay">
           <button className="close" onClick={() => imageAction("close")}>
-            <i className="fa-solid fa-x"></i>
+            <img src="/img/xmark.svg" alt="" />{" "}
           </button>
           <button className="prev" onClick={() => imageAction("prev")}>
             <i className="fa-solid fa-chevron-left"></i>
