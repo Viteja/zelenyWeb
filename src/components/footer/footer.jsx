@@ -82,19 +82,19 @@ export default function Footer() {
               <h3>{t("contants")}</h3>
               <ul>
                 <li>
-                  <i className="fa-regular fa-envelope"></i>
-                  <a href="" className="link" target="_blank">
+                  <img src="/img/envelope-white.svg" alt="" />
+                  <a href="mailto:info@filipzeleny.cz" className="link" target="_blank">
                     info@filipzeleny.cz
                   </a>
                 </li>
                 <li>
-                  <i className="fa-brands fa-instagram"></i>{" "}
+                  <img src="/img/ig-white.svg" alt="" />
                   <a href="https://www.instagram.com/interiery_filipzeleny/" className="link" target="_blank">
                     interiery_filipzeleny
                   </a>
                 </li>
                 <li>
-                  <i class="fa-brands fa-square-facebook"></i>
+                  <img src="/img/fb-white.svg" alt="" />
                   <a href="https://www.facebook.com/people/Interi%C3%A9ry-Filip-Zelen%C3%BD/61551922541364/" target="_blank">
                     Interiéry Filip Zelený
                   </a>

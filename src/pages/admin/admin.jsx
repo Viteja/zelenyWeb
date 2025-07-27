@@ -13,7 +13,7 @@ const Admin = () => {
   const [igOpen, setIgOpen] = useState(false);
 
   const [data, setData] = useState([]);
-
+  /*
   const verifyToken = () => {
     fetch("https://www.filipzeleny.cz/php/verify-token.php", {
       method: "GET",
@@ -43,13 +43,12 @@ const Admin = () => {
       })
       .catch((error) => {
         console.error("Chyba:", error);
-        alert("Session vypršela.");
       });
   };
   useEffect(() => {
     verifyToken();
   }, []);
-
+*/
   const [igData, setIgData] = useState(""); // nebo 0, pokud chceš číslo
 
   const _changeIgData = (e) => {
@@ -359,7 +358,7 @@ const Admin = () => {
               }}
             >
               <h3>Nový stůl</h3>
-              <img src="/img/xmark.svg" alt="" />
+              <img src="/img/plus.svg" alt="" />
             </div>
             {data.map((item) => (
               <div className="stul-card">
@@ -371,10 +370,10 @@ const Admin = () => {
                   </div>
                   <div className="card-btns">
                     <button className="edit" title="Upravit stůl" onClick={() => editTable(item.Id)}>
-                      <i className="fa-solid fa-pen-to-square"></i>
+                      <img src="/img/edit.svg" alt="" />
                     </button>
                     <button className="delete" title="Smazat stůl" onClick={() => removeTable(item.Id)}>
-                      <i className="fa-solid fa-trash"></i>
+                      <img src="/img/delete.svg" alt="" />
                     </button>
                   </div>
                 </div>

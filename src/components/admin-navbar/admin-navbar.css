@@ -12,6 +12,12 @@
   align-items: center;
 }
 
+.admin-navbar img {
+  width: 40px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
 .navbar-logo img {
   width: 60px;
   height: auto;
@@ -31,9 +37,7 @@
 
 .admin-navbar li a {
   display: block;
-  padding: 8px 16px;
   text-decoration: none;
-  margin: 0.5rem 0;
   border-radius: 25px;
   background-color: transparent;
   transition: 0.3s;
@@ -41,13 +45,6 @@
 
 .admin-navbar li a i {
   font-size: 24px;
-}
-
-.admin-navbar li a:hover {
-  background-color: var(--green);
-  border-radius: 5px;
-  transition: 0.3s;
-  color: black;
 }
 
 .logout {

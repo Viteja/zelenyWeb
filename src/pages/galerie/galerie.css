@@ -67,19 +67,19 @@
 }
 
 .close {
-  padding: 2rem;
+  height: 30px;
+  width: 30px;
   font-size: 25px;
   background: none;
   color: white;
   border: none;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 1rem;
+  right: 5rem;
 }
 
 .close:hover {
-  padding: 2rem;
-  color: #98ba49;
+  cursor: pointer;
 }
 
 .next {

@@ -39,7 +39,6 @@ const Admin = () => {
       })
       .catch((error) => {
         console.error("Chyba:", error);
-        alert("Session vypršela.");
       });
   };
   useEffect(() => {
@@ -211,7 +210,7 @@ const Admin = () => {
               }}
             >
               <h3>Novej obrázek</h3>
-              <img src="/img/xmark.svg" alt="" />
+              <img src="/img/plus.svg" alt="" />
             </div>
             {data.map((item) => (
               <div className="stul-card">
@@ -223,7 +222,7 @@ const Admin = () => {
                   </div>
                   <div className="card-btns">
                     <button className="delete" title="Smazat stůl" onClick={() => removeGallery(item.id)}>
-                      <i className="fa-solid fa-trash"></i>
+                      <img src="/img/delete.svg" alt="" />
                     </button>
                   </div>
                 </div>
@@ -246,7 +245,7 @@ const Admin = () => {
                 }}
                 title="Zavřít okno"
               >
-                <img src="/img/xmark.svg" alt="" />{" "}
+                <img src="/img/xmark.svg" alt="" />
               </button>
             </div>
             <div className="modal-content">

@@ -54,6 +54,12 @@ footer {
   margin-left: 6rem;
 }
 
+.footer-menu img {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
 .footer-menu a {
   white-space: nowrap;
   letter-spacing: 0.5px;

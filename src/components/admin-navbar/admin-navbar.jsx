@@ -12,19 +12,19 @@ const AdminNavbar = () => {
       <ul>
         <li>
           <a href="/admin/admin-panel">
-            <i className="fa-solid fa-wrench"></i>
+            <img src="/img/plus.svg" alt="" />
           </a>
         </li>
         <li>
           <a href="/admin/admin-gallery">
-            <i className="fa-solid fa-image"></i>
+            <img src="/img/image.svg" alt="" />
           </a>
         </li>
       </ul>
       <div class="logout">
         <li>
           <a href="https://www.filipzeleny.cz/php/logout.php">
-            <i className="fa-solid fa-right-from-bracket"></i>
+            <img src="/img/logout.svg" alt="" />
           </a>
         </li>
       </div>
