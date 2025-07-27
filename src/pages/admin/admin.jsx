@@ -328,7 +328,7 @@ const Admin = () => {
       <ToastContainer position="bottom-right" autoClose={5000} hideProgressBar={false} newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover theme="light" />
       <AdminNavbar />
       <div className="ig-edit" onClick={() => setIgOpen(true)}>
-        <i class="fa-brands fa-square-instagram"></i>
+        <img src="/img/ig-white.svg" alt="" className="ig-edit-icon" />
       </div>
       <div className="admin-wrapper">
         <div className="container">

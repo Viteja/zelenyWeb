@@ -25,7 +25,7 @@ const ScrollButton = () => {
 
   return (
     <button id="scrollDown" onClick={scrollToPosition} title={isNearBottom ? "Posun Nahoru" : "Posun Dolů"}>
-      <i className={isNearBottom ? "fa-solid fa-chevron-up" : "fa-solid fa-chevron-down"} alt={isNearBottom ? "Scroll Up" : "Scroll Down"} style={{ width: "20px", height: "20px" }} />
+      <img src="/img/btnUpDown.svg" alt={isNearBottom ? "Scroll Up" : "Scroll Down"} style={isNearBottom ? { transform: "rotate(180deg)", width: "20px", height: "20px", transition: "transform 0.3s" } : { transition: "transform 0.3s", transform: "rotate(0deg)", width: "20px", height: "20px" }} />
     </button>
   );
 };

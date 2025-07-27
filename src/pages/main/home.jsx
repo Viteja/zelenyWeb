@@ -118,15 +118,12 @@ function App() {
               <h1 className="main-text">{t("service2")}</h1>
               <div className="hover-text">
                 <div className="service-item">
-                  <i className="fa-solid fa-circle"></i>
                   <p>{t("service2_item1")}</p>
                 </div>
                 <div className="service-item">
-                  <i className="fa-solid fa-circle"></i>
                   <p>{t("service2_item2")}</p>
                 </div>
                 <div className="service-item">
-                  <i className="fa-solid fa-circle"></i>
                   <p>{t("service1_item3")}</p>
                 </div>
               </div>
@@ -137,15 +134,12 @@ function App() {
               <h1 className="main-text">{t("service1")}</h1>
               <div className="hover-text">
                 <div className="service-item">
-                  <i className="fa-solid fa-circle"></i>
                   <p>{t("service1_item1")}</p>
                 </div>
                 <div className="service-item">
-                  <i className="fa-solid fa-circle"></i>
                   <p>{t("service1_item2")}</p>
                 </div>
                 <div className="service-item">
-                  <i className="fa-solid fa-circle"></i>
                   <p>{t("service1_item3")}</p>
                 </div>
               </div>
