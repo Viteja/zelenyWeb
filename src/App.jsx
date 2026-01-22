@@ -12,6 +12,7 @@ import Kontakt from "./pages/kontakt/kontakt";
 import Login from "./pages/admin/login";
 import Admin from "./pages/admin/admin";
 import Admin_Gallery from "./pages/admin/admin-gallery";
+import FormSuccess from "./pages/form/form_success";
 import "./App.css";
 
 // Hlavní App komponenta, která obaluje aplikaci v <BrowserRouter>
@@ -56,6 +57,7 @@ function AppRoutes() {
       <Route path="/admin" element={<Login />} />¨
       <Route path="/admin/admin-panel" element={<Admin />} />
       <Route path="/admin/admin-gallery" element={<Admin_Gallery />} />
+      <Route path="/form-success" element={<FormSuccess />} />
     </Routes>
   );
 }

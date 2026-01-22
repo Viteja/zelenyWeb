@@ -65,6 +65,7 @@ export default function Kontakt() {
             predmet: "",
             zprava: "",
           });
+          window.location.href = "/form-success";
         } else {
           console.error("Chyba ze serveru:", data.error);
           toast.error(`Nepodařilo se odeslat zprávu: ${data.error || "Neznámá chyba."}`);

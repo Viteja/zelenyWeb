@@ -1,0 +1,31 @@
+.wrapper {
+  background-color: var(--darkblue);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.form-success-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.form-success-content {
+  text-align: center;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+
+.form-success-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.form-success-content i {
+  font-size: 10rem;
+  color: var(--green);
+  margin-bottom: 100px;
+}

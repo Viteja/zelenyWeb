@@ -60,12 +60,17 @@ function Interiery() {
       toast.error("Vyplňte všechny povinné údaje.");
       return;
     }
+
+    const payload = {
+      ...formData,
+      nazev: selectedCategory, // <--- Tady si vezmeme aktuální hodnotu ze state
+    };
     fetch("https://www.filipzeleny.cz/php/sendInteriery.php", {
       method: "POST", // Správná metoda
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(formData), // Převod objektu na JSON
+      body: JSON.stringify(payload), // Převod objektu na JSON
     })
       .then((res) => res.json())
       .then((data) => {
@@ -79,6 +84,7 @@ function Interiery() {
             telefon: "",
             zprava: "",
           });
+          window.location.href = "/form-success";
         } else {
           toast.error("Nepodařilo se odeslat zprávu.");
         }

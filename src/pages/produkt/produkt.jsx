@@ -165,6 +165,7 @@ function Produkt({ id }) {
             telefon: "",
             zprava: "",
           });
+          window.location.href = "/form-success";
         } else {
           toast.error("Nepodařilo se odeslat zprávu.");
         }
