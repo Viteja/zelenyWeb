@@ -35,6 +35,29 @@ function AppRoutes() {
   const [Id, setId] = useState("");
   const location = useLocation();
 
+  // 2. SKLIK Retargeting (Přidaný kód)
+  useEffect(() => {
+    // Funkce se spustí při každé změně stránky (location)
+    // Pokud to chceš jen 1x při vstupu na web, smaž [location] ze závislostí na konci useEffectu
+    if (window.rc && window.sznIVA) {
+      try {
+        window.sznIVA.IS.updateIdentities({
+          eid: null, // Zde můžeš doplnit zahashovaný email, pokud ho máš
+        });
+
+        var retargetingConf = {
+          rtgId: 1664699,
+          consent: 1, // 0 = bez souhlasu, 1 = se souhlasem (zde by měla být proměnná z cookie lišty)
+        };
+
+        window.rc.retargetingHit(retargetingConf);
+        console.log("Sklik retargeting odeslán");
+      } catch (error) {
+        console.error("Chyba při odesílání Sklik retargetingu:", error);
+      }
+    }
+  }, [location]);
+  // 2. SKLIK Retargeting (Přidaný kód)
   const getQueryParam = (param) => {
     const urlParams = new URLSearchParams(location.search);
     return urlParams.get(param);
